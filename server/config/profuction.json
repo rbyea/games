@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "mongoUri": "mongodb+srv://flrbyave:10uq48ltpIFABEDS@cluster0.is0tmgb.mongodb.net/?retryWrites=true&w=majority",
+  "accessSecret": "jshop secret from backend",
+  "refreshSecret": "jshop super refresh key"
+}

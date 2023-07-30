@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "dlkqwhndlkqhwejklqh123dwq11wejkl",
+    "cpu": "Intel i3",
+    "gpu": "GTX 650",
+    "directx": 10,
+    "system": "Windows 7",
+    "size": 20,
+    "ram": 2,
+    "gameId": "12312045812dqwdqwd512"
+  },
+  {
+    "_id": "dlkqw12312312f123dwq11wejkl",
+    "cpu": "Intel i7",
+    "gpu": "GTX 650",
+    "directx": 10,
+    "system": "Windows 8",
+    "size": 20,
+    "ram": 2,
+    "gameId": "NFajnsfdnjasjg13123"
+  },
+  {
+    "_id": "qw123fwqdfawfgw123",
+    "cpu": "Intel i3",
+    "gpu": "GTX 1050 ti",
+    "directx": 10,
+    "system": "Windows 10",
+    "size": 20,
+    "ram": 3,
+    "gameId": "fasfqwnekljhb21kj3vbkhjdvqskahjdq"
+  },
+  {
+    "_id": "vasvab1233412fasdvbas",
+    "cpu": "Intel i5",
+    "gpu": "GTX 2060 super",
+    "directx": 10,
+    "system": "Windows 11",
+    "size": 20,
+    "ram": 2,
+    "gameId": "hhwehwejkerjoeitweuto3242341"
+  }
+]
