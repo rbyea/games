@@ -12,7 +12,7 @@ const Basket = (props) => {
     windowScroll();
   }, []);
 
-  const listBasket = useSelector(getListBasket());
+  const listBasket = useSelector(getListBasket);
   const loadStatusBasket = useSelector(getLoadingStatusBasket());
 
   if (loadStatusBasket) return <Preloader />;
