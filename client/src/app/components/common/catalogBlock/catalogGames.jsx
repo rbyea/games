@@ -13,7 +13,7 @@ const CatalogGames = ({
   sortOrder
 }) => {
   const [currentPage, setCurrentPage] = React.useState(1);
-  const pageSize = 9;
+  const pageSize = 8;
   const handlePageChange = (pageIndex) => {
     setCurrentPage(pageIndex);
   };
