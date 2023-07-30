@@ -20,14 +20,14 @@ const PORT = config.get("port") ?? 8080;
 // username => flrbyave
 // password => 10uq48ltpIFABEDS
 
-// if (process.env.NODE_ENV === "production") {
-//   app.use("/", express.static(path.join(__dirname, "client")));
-//   const indexPath = path.join(__dirname, "client", "index.html");
+if (process.env.NODE_ENV === "production") {
+  app.use("/", express.static(path.join(__dirname, "client")));
+  const indexPath = path.join(__dirname, "client", "index.html");
 
-//   app.get("*", (req, res) => {
-//     res.sendFile(indexPath)
-//   })
-// }
+  app.get("*", (req, res) => {
+    res.sendFile(indexPath)
+  })
+}
 
 async function start() {
   try {
